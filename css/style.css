@@ -171,7 +171,7 @@ header{
   padding: 30px;
 
   /* Your code here */
-  place-self: center; /* Not sure about this! */
+  place-self: center; 
 
 }
 
@@ -189,36 +189,12 @@ header{
     grid-template-rows: repeat(5, 400px);
   }
 
-  .about-image{ /*  Work on grouping??? */
+  .about-image, .method, .clients-image, .contact{ 
     grid-column: 2 / span 2;
   }
 
-  .about{
+  .about, .method-image, .clients, .contact-image{
     grid-column: 3 / span 2;
-  }
-
-  .method-image{
-    grid-column: 3 / span 2;
-  }
-
-  .method{
-    grid-column: 2 / span 2;
-  }
-
-  .clients-image{
-    grid-column: 2 / span 2;
-  }
-
-  .clients{
-    grid-column: 3 / span 2;
-  }
-
-  .contact-image{
-    grid-column: 3 / span 2;
-  }
-
-  .contact{
-    grid-column: 2 / span 2;
   }
 
 }

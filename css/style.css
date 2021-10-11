@@ -68,7 +68,6 @@ nav a:hover{
   text-decoration: underline;
 }
 
-
 .skip a{
   background: white;
   left: 0;
@@ -80,16 +79,13 @@ nav a:hover{
   /* Requirement 3a code here*/
   position: absolute;
   top: -40px;
-  overflow: hidden; /* Not sure about this! Also ask about head!!!!!!!!!!!! */
 }
 
 /* Requirement 3b code here*/
 .skip a:focus{
   position: absolute;
   top: 0px;
-  overflow: visible; /* Not sure about this! */
 }
-
 
 /* Requirement 4 code here*/
 *:focus{
@@ -101,7 +97,7 @@ nav a:hover{
   display: grid;
   grid-template-columns: 1fr 5fr 1fr; 
   grid-template-rows: repeat(5, auto);
-  row-gap: 15px; /* Not sure about this! */
+  row-gap: 15px; 
 }
 
 /* Remainder of requirements here: */
@@ -123,7 +119,7 @@ header{
 .about-image{
   grid-column: 1 / -1;
   max-height: 700px;
-  overflow: hidden; /* Not sure about this! */
+  overflow: hidden; 
   grid-row: 2 / span 1;
 }
 
@@ -135,7 +131,7 @@ header{
 .method-image{
   grid-column: 1 / -1;
   max-height: 700px;
-  overflow: hidden; /* Not sure about this! */
+  overflow: hidden; 
   grid-row: 3 / span 1;
 }
 
@@ -148,7 +144,7 @@ header{
 .clients-image{
   grid-column: 1 / -1;
   max-height: 700px;
-  overflow: hidden; /* Not sure about this! */
+  overflow: hidden; 
   grid-row: 4 / span 1;
 }
 
@@ -160,7 +156,7 @@ header{
 .contact-image{
   grid-column: 1 / -1;
   max-height: 700px;
-  overflow: hidden; /* Not sure about this! */
+  overflow: hidden; 
   grid-row: 5 / span 1;
 }
 
@@ -175,7 +171,7 @@ header{
   padding: 30px;
 
   /* Your code here */
-  margin: auto; /* Not sure about this! */
+  place-self: center; /* Not sure about this! */
 
 }
 
@@ -184,8 +180,7 @@ header{
     padding: 30px 0;
 
     /* Your code here */
-    position: absolute; /* Not sure about this! */
-    right: 0;
+    text-align: right;
   }
 
   .container{
